@@ -28,7 +28,7 @@ function Ball(params) {
             // Check if the ball is within the paddle area (x-axis)
             if (x + sb2 >= p2Bounds.sleft) {
                 // Check if the ball is in the paddle surface region (y-axis)
-                if (!(y < p2Bounds.top || y > p2Bounds.bottom)) {
+                if (!(y + sb2 < p2Bounds.top || y - sb2 > p2Bounds.bottom)) {
                     rely = y - p2Bounds.y;
                     nory = 2 * rely / p2Bounds.l
                     deg = -(nory * MAXDEG);
@@ -41,7 +41,7 @@ function Ball(params) {
             // Check if the ball is within the paddle area (x-axis)
             if (x - sb2 <= p1Bounds.sright ) {
                 // Check if the ball is in the paddle surface region (y-axis)
-                if (!(y < p1Bounds.top || y > p1Bounds.bottom)) {
+                if (!(y + sb2 < p1Bounds.top || y - sb2 > p1Bounds.bottom)) {
                     rely = y - p1Bounds.y;
                     nory = 2 * rely / p1Bounds.l
                     deg = (nory * MAXDEG);
