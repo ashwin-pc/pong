@@ -1,0 +1,55 @@
+body {
+    background: #FFC107;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "roboto", Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #b7720d;
+}
+
+.score {
+    color: white;
+    font-size: 4rem;
+    position: fixed;
+    top: 75px;
+    font-family: "roboto", Arial, sans-serif;
+    text-shadow: 1px 1px 1px #b7720d;
+    font-weight: bold;
+    left: 12%;
+    background: #2196F3;
+    padding: 10px 30px;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+#p2-score {
+    right: 12%;
+    left: inherit;
+    background-color: #FF5722;
+}
+
+canvas {
+    display: block;
+    width: 80vw;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 560px){
+    .title {
+        margin-bottom: 6rem;
+    }
+
+    .score {
+        top: 9rem;
+        font-size: 3rem;
+    }
+}
