@@ -153,13 +153,13 @@
 
 function loadRequirements(callback) {
     var loaded = 0;
-    var urls = ["/pong/ball.js", "/pong/paddle.js"]
+    var urls = ["pong/ball.js", "pong/paddle.js"]
 
     urls.forEach(function (url) {
         var head = document.getElementsByTagName('head')[0];
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = window.location.pathname + url;
+        script.src = window.location.href + url;
 
         // Fire the loading
         head.appendChild(script);

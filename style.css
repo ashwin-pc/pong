@@ -6,7 +6,7 @@ body {
 .title {
     text-align: center;
     font-size: 4rem;
-    font-family: "roboto", Arial, sans-serif;
+    font-family: "Roboto Condensed", Arial, sans-serif;
     text-transform: uppercase;
     color: white;
     text-shadow: 1px 1px 1px #b7720d;
@@ -17,7 +17,7 @@ body {
     font-size: 4rem;
     position: fixed;
     top: 0;
-    font-family: "roboto", Arial, sans-serif;
+    font-family: "Roboto Condensed", Arial, sans-serif;
     text-shadow: 1px 1px 1px #b7720d;
     font-weight: bold;
     left: 0;
