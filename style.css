@@ -15,20 +15,21 @@ body {
     color: white;
     font-size: 4rem;
     position: fixed;
-    top: 75px;
+    top: 0;
     font-family: "roboto", Arial, sans-serif;
     text-shadow: 1px 1px 1px #b7720d;
     font-weight: bold;
-    left: 12%;
+    left: 0;
     background: #2196F3;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 0 0 10px 0;
     z-index: -1;
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.3);
 }
 
 #p2-score {
-    right: 12%;
+    border-radius: 0 0 0 10px;
+    right: 0;
     left: inherit;
     background-color: #FF5722;
 }
@@ -49,7 +50,12 @@ canvas {
     }
 
     .score {
+        border-radius: 0 10px 10px 0;
         top: 9rem;
         font-size: 3rem;
+    }
+
+    #p2-score {
+        border-radius: 10px 0 0 10px;
     }
 }
