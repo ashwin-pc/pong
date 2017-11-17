@@ -1,7 +1,7 @@
 (function (window) {
     // Private Variables
-    var width = 500;
-    var height = 300;
+    var width = 800;
+    var height = 500;
     var pong = {};
     var keypressed = false;
     var ball, p1, p2;

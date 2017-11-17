@@ -1,6 +1,6 @@
 function Paddle(pong, player) {
     var p = this;
-    var length = 50;
+    var length = 80;
     var width = 10;
     var lb2 =  length/2;
     var wb2 = width/2;
